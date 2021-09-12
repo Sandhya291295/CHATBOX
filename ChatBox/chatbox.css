@@ -1,0 +1,176 @@
+.col{
+    background-size: cover;
+    height: 500px;
+      }
+
+      body{
+           background-image: url("wood.jpeg");
+           background-size: cover;
+      }
+  
+      #one,#two{
+       border: 2px solid black;
+       height: 550px;
+       width: 550px;
+       margin: 45px;
+       /* background:transparent; */
+       border: solid black;
+       border-radius: 2%;
+       box-shadow:
+      2px    2px   2px  rgba(255,255,255,.8), /* Bright outer highlight */
+      3px    3px   3px  rgba(0,0,0,.8),       /* Outer shadow */
+      1px  1px 0    rgba(0,0,0,.8) inset, /* Inner shadow (top + left) */
+     -1px -1px 0    rgba(0,0,0,.8) inset; /* Inner shadow (bottom + right) */
+     background-image: url("car.jpeg");
+    background-size: cover;
+    
+    
+}
+      
+   
+#text{
+  margin-top: -3px;
+  border: solid black;
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-top: 5px solid black;
+  background: radial-gradient(yellow,green);
+}
+#input{
+  height: 27px;
+  width: 400px;
+}
+
+.fa{
+  color:blue;
+}
+#user1{
+border: solid black;
+background: radial-gradient(yellow,green);
+
+}
+img{
+  height: 45px;
+  width: 40px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 25px;
+  color: white;
+  text-shadow:2px 2px green;
+  }
+
+  #btn1,#btn2{
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  font-weight:  bolder;
+  }
+  .firstbox{
+    height: 453px;
+    /* overflow: auto */
+    
+  }
+  .secondbox{
+    height: 453px;
+    /* overflow: auto */
+   
+  }
+  #input1{
+    height: 27px;
+    width: 400px;
+  }
+  #user2{
+    border: solid black;
+    background: radial-gradient(yellow,green);
+  }
+  #text1{
+    margin-top: -3px;
+    border: solid black;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    border-top: 5px solid black;
+    background: radial-gradient(yellow,green);
+  }
+  .delete,.delete1{
+      background-color: white;
+      border-radius: 20%;
+      margin-top: 8px;
+  }
+  .firstbox .p{
+    color: white;
+    background-color: blue;
+    margin-right: 4px;
+    float: right;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 7px;
+    /* margin: 0; */
+    
+  }
+  .secondbox .p1{
+    color: blue;
+    /* width: 350px; */
+    background-color: white;
+    margin-left: 4px;
+    float: left;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 15%;
+    font-size: 7px;
+    /* margin: 0; */
+    
+  }
+  .secondbox .p3{
+    color: white;
+    /* width: 350px; */
+    background-color: blue;
+    margin-right: 4px;
+    float: right;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 15%;
+    font-size: 7px;
+    /* margin: 0; */
+      }
+  .firstbox .p4{
+    color: blue;
+    /* width: 350px; */
+    background-color: white;
+    margin-left: 4px;
+    float: left;
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 15%;
+    font-size: 7px;
+    /* margin: 0; */
+    
+  }
+  .p,.p1,.p3,.p4{
+    margin: 0;
+  }
+
+strong{
+  float: right;
+  color:black;
+  font-size: 1%;
+  margin-top: 5px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border: transparent;
+  background-color: thistle;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: transparent;
+  background:linear-gradient(green,yellow);
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+}
